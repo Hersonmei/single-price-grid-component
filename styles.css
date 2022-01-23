@@ -18,6 +18,7 @@ main {
     margin: 3rem 2rem 2rem 2rem;
 }
 
+
 .area {
     padding: 1.4rem 1.2rem;
     width: 100%;
@@ -82,6 +83,7 @@ span{
     background-color: hsl(71, 73%, 54%);
     padding: 1rem 6.4rem;
     border-radius: 5px;
+    box-shadow: 0 6px 20px #31706f;
 }
 
 ul{
@@ -94,18 +96,66 @@ ul{
     color: hsl(204, 43%, 93%);
 }
 
-@media (min-width: 500px) {
+
+@media (min-width: 700px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
     main{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        max-width: 700px;
-        /* justify-content: center;
-        align-content: center;
-        ali */
+        grid-template-rows: 13.5rem 16rem;
+        max-width: 635px;
+        height: 500px;
+    }
+
+    .area{
+        padding: 2.5rem 2.5rem;
+
     }
 
     .one{
         grid-column: 1 / 3;
+        border-radius: 10px 10px;
+    }
+
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .two{
+        height: 100%;
+        border-radius: 0 0 0 10px;
+    }
+
+    .two a{
+        padding: 0.8rem 5rem;
+        cursor: pointer;
+    }
+
+    .three{
+        height: 100%;
+        border-radius: 0 0 10px 0;
+    }
+
+    footer{
+        position: absolute;
+        bottom: 0;
     }
 
 }
