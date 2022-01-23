@@ -27,6 +27,7 @@ main {
 .area.one{
     background-color: white;
     color: hsl(218, 22%, 67%);
+    border-radius: 5px 5px 0 0;
 }
 
 .area.two{
@@ -38,7 +39,7 @@ main {
 .area.three{
     background-color: #4abebd;
     color: #e0ebf2;
-    
+    border-radius: 0 0 5px 5px;
 }
 
 h1 {
