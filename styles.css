@@ -28,6 +28,7 @@ main {
     background-color: white;
     color: hsl(218, 22%, 67%);
     border-radius: 5px 5px 0 0;
+    height: 100%;
 }
 
 .area.two{
@@ -112,17 +113,19 @@ ul{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 13.5rem 16rem;
         max-width: 635px;
-        height: 500px;
+        box-shadow: 0 6px 25px #7aafae;
+        border-radius: 10px;
     }
 
     .area{
         padding: 2.5rem 2.5rem;
-
+        width: 100%;
     }
 
-    .one{
+    .area.one{
         grid-column: 1 / 3;
         border-radius: 10px 10px;
+        
     }
 
     
@@ -139,7 +142,7 @@ ul{
         font-size: 1rem;
     }
 
-    .two{
+    .area.two{
         height: 100%;
         border-radius: 0 0 0 10px;
     }
@@ -149,7 +152,7 @@ ul{
         cursor: pointer;
     }
 
-    .three{
+    .area.three{
         height: 100%;
         border-radius: 0 0 10px 0;
     }
